@@ -1,60 +1,54 @@
-/* Custom Styles for Navbar */
 .navbar-custom {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)); /* Dark gradient background */
-    padding: 0.8rem 2rem; /* More padding for a spacious look */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow */
-    transition: background 0.3s ease-in-out;
-  }
-  
-  .navbar-custom:hover {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)); /* Darker gradient on hover */
-  }
-  
-  /* Navbar Brand Styling */
-  .navbar-brand {
-    font-family: 'Arial', sans-serif;
-    font-weight: 700;
-    font-size: 1.8rem;
-    color: #fff !important;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-brand:hover {
-    color: #f39c12 !important; /* Gold color on hover */
-  }
-  
-  /* Custom Link Styling */
-  .nav-link-custom {
-    color: #fff !important;
-    font-weight: 500;
-    font-size: 1.1rem;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .nav-link-custom:hover {
-    color: #f39c12 !important; /* Gold color on hover */
-    transform: scale(1.1); /* Slight zoom effect on hover */
-  }
-  
-  /* Custom Dropdown Styling */
-  .nav-dropdown-custom .dropdown-item {
-    color: #333 !important;
-    padding: 0.75rem 1.25rem;
-  }
-  
-  .nav-dropdown-custom .dropdown-item:hover {
-    background-color: #f39c12;
-    color: white;
-  }
-  
-  /* Navbar Toggle Customization (Hamburger Icon) */
-  .navbar-toggler-custom {
-    border-color: #f39c12;
-  }
-  
-  .navbar-toggler-icon {
-    background-color: #f39c12; /* Gold color for the hamburger icon */
-  }
-  
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+  padding: 0.8rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar-custom:hover {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+}
+
+.navbar-brand {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #fff !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #f39c12 !important;
+}
+
+.nav-link-custom {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #f39c12 !important;
+  transform: scale(1.1);
+}
+
+.nav-dropdown-custom .dropdown-item {
+  color: #333 !important;
+  padding: 0.75rem 1.25rem;
+}
+
+.nav-dropdown-custom .dropdown-item:hover {
+  background-color: #f39c12;
+  color: white;
+}
+
+.navbar-toggler-custom {
+  border-color: #f39c12;
+}
+
+.navbar-toggler-icon {
+  background-color: #f39c12;
+}
